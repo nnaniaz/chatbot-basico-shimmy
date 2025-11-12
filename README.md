@@ -10,7 +10,7 @@ Colocar el modelo en la carpeta models
 
 ![Shimmy (Levantando Servidor Shimmy)](/imagenes/shimmy.png)
 
-Luego ir a la carpeta 'chatbot-django', iniciar el entorno virtual 'venv', instalar las dependencias con <code>pip install -r requirements.txt</code>, iniciar el proyecto con <code>python manage.py runserver 0.0.0.0:8000</code>
+Luego ir a la carpeta 'chatbot-django', iniciar el entorno virtual 'venv' <code>venv\Scripts\activate<code>, instalar las dependencias con <code>pip install -r requirements.txt</code>, iniciar el proyecto con <code>python manage.py runserver 0.0.0.0:8000</code>
 Logearse en Django con el endpoint [http://localhost:8000/api/login/](http://localhost:8000/api/login/) -> Peticion POST
 Y enviar este JSON:
 ```json
